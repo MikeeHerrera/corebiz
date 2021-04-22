@@ -1,0 +1,87 @@
+.containerFull{
+    background-color:#ECECEC;
+    /* width:90%; */
+    display:flex;
+    flex-flow: row wrap ;
+    height:auto;
+   }
+
+   .containerHijo{
+       /* background-color:red; */
+    /* height: auto; */
+margin:20px auto 20px auto;
+          width:80%;
+  
+   }
+   .title{
+       /* background-color:green; */
+       margin:10px auto 10px auto;
+       font-weight: bold;
+       font-size:19px;
+   }
+
+   button{
+       background-color:black;
+       border-color:black;
+       color:white;
+       height:35px;
+       width:125px;
+       margin:0px 0px 5px 5px;
+       font-size:10px;
+
+   }
+   input[type="text"]::placeholder { 
+                  
+    /* Firefox, Chrome, Opera */
+    text-align: justify;
+}
+   input{
+       margin:0px 0px 3px 3px;
+    height:35px;
+width:250px;
+      
+       font-size:10px;
+    /* padding: 12px 20px; */
+    /* font-size: 1rem; */
+    border-width: calc(var(--border-width) * 0px);
+    border-style: solid;
+    border-color: white;
+    border-radius:3px;
+    
+    outline: transparent;
+    /* width: 100%; */
+    transition: border-color calc(var(--transition, 0.2) * 1s) ease;
+  
+   }
+ 
+
+   @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    button{
+        background-color:black;
+        border-color:black;
+        color:white;
+        height:45px;
+        width:100%;
+        margin-top: 10px;
+        font-size:13px;
+        border-radius: 5px;
+ 
+    }
+input{
+    border-radius: 5px;
+
+    font-size:13px;
+    height:45px;
+    width:100%;
+    margin-top:10px;
+}
+
+.title{
+    text-align:initial;
+    font-size: 19px;
+}
+   }
+
+
+  

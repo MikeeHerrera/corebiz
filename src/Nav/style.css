@@ -1,0 +1,68 @@
+.containerNav{
+    background-color:white;
+    display:flex;
+    flex-flow: row wrap ;
+}
+
+
+.images{
+    width:360px;
+    /* background-color:red; */
+}
+
+.search{
+    margin: auto;
+    width:600px;
+    border-color: aqua;
+    text-align:justify;
+    border-bottom: 10px black;
+ 
+}
+input{
+    width:3px 3px 3px 3px;
+}
+
+
+.search hr{
+    color:black;
+}
+
+/* .items{
+    width:33%;
+    background-color:aquamarine;
+    margin: auto;
+} */
+.uno{
+    margin: auto;
+}
+
+.dos{
+    margin: auto;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .containerNav{
+        background-color:white;
+        display:flexbox;
+        flex-flow: wrap-reverse;
+    }
+    .images{
+        width:50px;
+        /* background-color:red; */
+    }
+    .search {
+       position:absolute;
+       background-color:transparent !important;
+    }
+
+    .uno{
+        width:200px;
+        background-color:red;
+       margin-right: 0px;
+    }
+    
+    .dos{
+        display: none;
+    }
+
+}

@@ -1,0 +1,144 @@
+.footer {
+    /* margin-top: 1rem; */
+    /* padding: 5rem; */
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display:flex;
+    flex-flow:  wrap;
+    justify-items: center;
+  }
+
+h1{
+    color:white;
+}
+
+.buttonF{
+    text-align: justify;
+    width:180px;
+    height:35px;
+    margin:5px 5px 5px 5px;
+    border-radius:5px;
+    background-color:white;
+    color:black;
+    font-size:8px;
+    font-weight: bold;
+    margin: 10px;
+}
+.buttonI{
+    text-align: center;
+    width:180px;
+    height:35px;
+    margin:5px 5px 5px 5px;
+    border-radius:5px;
+    background-color:white;
+    color:black;
+    font-size:8px;
+    font-weight: bold;
+}
+.icon{
+    /* font-size:15px; */
+    margin-left: auto;
+  
+}
+
+.one{
+        padding: 1rem;
+
+    /* background-color:aqua; */
+    color:white;
+    margin:auto;
+    /* font-weight: bold; */
+    /* width:33%; */
+    text-align: justify;
+    font-size: 20px;
+}
+
+.resalt{
+    font-weight: bold;
+    font-size:15px;
+}
+.hijo1{
+    /* background-color:red; */
+ 
+    margin-left:initial;
+}
+.two{
+    /* background-color:greenyellow; */
+    margin:auto;
+   
+
+
+
+}
+
+.three{
+    margin:auto;
+background-color: transparent;
+   
+}
+
+img{
+    width:100px;
+}
+
+.vtex{
+    margin-top: -100px;
+}
+
+hr{
+    border: 2px solid white;
+    width: 40px;
+    margin:0px;
+
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+    .buttonF{
+        width:250px;
+        height:50px;
+        margin-top: 10px;
+        border-radius:5px;
+        background-color:white;
+        color:black;
+        font-size:12px;
+        direction:row;
+
+        /* justify-items: center; */
+        /* font-weight: bold; */
+    }
+  
+    
+    .icon{
+        text-align: left;
+        margin-left:-5px;
+    }
+
+    .hijo1{
+        /* background-color:red; */
+     
+        margin:0
+    }
+
+    .one{
+        
+    /* background-color:aqua; */
+    color:white;
+    margin:10px;
+    /* font-weight: bold; */
+    /* width:33%; */
+    text-align: justify;
+    font-size: 20px;
+    }
+
+    .resalt {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    p {
+        font-size: 13px;
+    }
+    
+}
